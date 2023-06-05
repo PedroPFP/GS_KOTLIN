@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeItem"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/droneItem"
+        android:icon="@drawable/_044362_drone_icon"
+        android:title="Drones" />
+    <item
+        android:id="@+id/fazendaItem"
+        android:icon="@drawable/baseline_agriculture_24"
+        android:title="Fazendas" />
+
+    <item
+        android:id="@+id/perfilItem"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Perfil" />
+
+</menu>

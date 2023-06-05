@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_home_graph"
+    app:startDestination="@id/homeItem">
+    <fragment
+        android:id="@+id/homeItem"
+        android:name="br.com.fiap.pedro_paulo_rm87592.Fragments.Home.HomeFragment"
+        android:label="HomeFragment"/>
+
+    <fragment
+        android:id="@+id/droneItem"
+        android:name="br.com.fiap.pedro_paulo_rm87592.Fragments.Home.DroneFragment"
+        android:label="DroneFragment">
+        <action
+            android:id="@+id/action_droneItem_to_droneCadastroItem"
+            app:destination="@id/droneCadastroItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fazendaItem"
+        android:name="br.com.fiap.pedro_paulo_rm87592.Fragments.Home.FazendaFragment"
+        android:label="FazendaFragment">
+        <action
+            android:id="@+id/action_fazendaItem_to_fazendaCadastroItem"
+            app:destination="@id/fazendaCadastroItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fazendaCadastroItem"
+        android:name="br.com.fiap.pedro_paulo_rm87592.Fragments.Home.FazendaCadastroFragment"
+        android:label="FazendaCadastroFragment">
+        <action
+            android:id="@+id/action_fazendaCadastroItem_to_fazendaItem"
+            app:destination="@id/fazendaItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/droneCadastroItem"
+        android:name="br.com.fiap.pedro_paulo_rm87592.Fragments.Home.DroneCadastroFragment"
+        android:label="droneCadastroItem">
+        <action
+            android:id="@+id/action_droneCadastroItem_to_droneItem"
+            app:destination="@id/droneItem" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/perfilItem"
+        android:name="br.com.fiap.pedro_paulo_rm87592.Fragments.Home.ProfileFragment"
+        android:label="PerfilFragment"/>
+
+</navigation>

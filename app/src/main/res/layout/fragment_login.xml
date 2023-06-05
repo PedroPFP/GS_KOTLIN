@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <ImageView
+        android:id="@+id/loginImageLogo"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/nexus_logo_preta" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/emailInput"
+        app:layout_constraintTop_toBottomOf="@id/loginImageLogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/largeMargin"
+        app:boxBackgroundColor="@color/black"
+        android:textColorHint="@color/branco_nexus"
+        app:boxStrokeColor="@color/nexus"
+        app:placeholderTextColor="@color/nexus"
+        app:hintTextColor="@color/nexus"
+        android:outlineSpotShadowColor="@color/nexus"
+        app:counterTextColor="@color/nexus"
+        android:outlineAmbientShadowColor="@color/nexus"
+        app:boxStrokeErrorColor="@color/nexus"
+        app:counterOverflowTextColor="@color/nexus"
+        app:errorTextColor="@color/nexus"
+        app:helperTextTextColor="@color/nexus"
+        app:prefixTextColor="@color/nexus"
+        app:suffixTextColor="@color/nexus"
+        app:passwordToggleTint="@color/nexus"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textColorHighlight="@color/nexus"
+            android:textColor="@color/nexus"
+            android:textColorHint="@color/nexus"
+            android:inputType="text"
+            android:outlineAmbientShadowColor="@color/nexus"
+            android:shadowColor="@color/nexus"
+            android:outlineSpotShadowColor="@color/nexus"
+            android:textColorLink="@color/nexus"
+            android:textCursorDrawable="@null"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/passwordInput"
+        app:layout_constraintTop_toBottomOf="@id/textInputEmail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="@dimen/largeMargin"
+        app:boxBackgroundColor="@color/black"
+        android:textColorHint="@color/branco_nexus"
+        app:passwordToggleEnabled="true"
+        app:boxStrokeColor="@color/nexus"
+        app:placeholderTextColor="@color/nexus"
+        app:hintTextColor="@color/nexus"
+        android:outlineSpotShadowColor="@color/nexus"
+        app:counterTextColor="@color/nexus"
+        android:outlineAmbientShadowColor="@color/nexus"
+        app:boxStrokeErrorColor="@color/nexus"
+        app:counterOverflowTextColor="@color/nexus"
+        app:errorTextColor="@color/nexus"
+        app:helperTextTextColor="@color/nexus"
+        app:prefixTextColor="@color/nexus"
+        app:suffixTextColor="@color/nexus"
+        app:passwordToggleTint="@color/nexus"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHighlight="@color/nexus"
+            android:textColor="@color/nexus"
+            android:textColorHint="@color/nexus"
+            android:inputType="textPassword"
+            android:outlineAmbientShadowColor="@color/nexus"
+            android:shadowColor="@color/nexus"
+            android:outlineSpotShadowColor="@color/nexus"
+            android:textColorLink="@color/nexus"
+            android:textCursorDrawable="@null"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/loginButtonText"
+        app:layout_constraintTop_toBottomOf="@id/textInputPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/nexus"/>
+
+    <Button
+        android:id="@+id/cadastroButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastroButtonText"
+        app:layout_constraintTop_toBottomOf="@id/loginButton"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/nexus"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

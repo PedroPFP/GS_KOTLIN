@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mediumMargin">4dp</dimen>
+    <dimen name="largeMargin">24dp</dimen>
+    <dimen name="largeText">24sp</dimen>
+    <dimen name="spacing_xs">4dp</dimen>
+    <dimen name="spacing_sm">8dp</dimen>
+    <dimen name="border_sm">1dp</dimen>
+</resources>

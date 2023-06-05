@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PEDRO_PAULO_RM87592</string>
+    <string name="loginInput">Login</string>
+    <string name="LoginTitle">Nexus201</string>
+    <string name="passwordInput">Senha</string>
+    <string name="loginButtonText">Logar</string>
+    <string name="cadastroButtonText">Cadastrar-se</string>
+    <string name="emailInput">Email</string>
+    <string name="textInputDrone">Nome do drone</string>
+    <string name="textIrrigacao">Nível de irrigação</string>
+    <string name="textNutrientes">Nível de nutrientes</string>
+    <string name="textNomeFazenda">Nome da fazenda</string>
+    <string name="textNomeCultura">Cultura da fazenda</string>
+    <string name="btnCadastroFazenda">Cadastrar fazenda</string>
+    <string name="textNomePragas">Pragas existentes</string>
+    <string name="droneNome">droneNome</string>
+    <string name="btnDeslogar">Deslogar</string>
+</resources>
